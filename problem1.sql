@@ -1,1 +1,2 @@
  CREATE TABLE post (id SERIAL PRIMARY KEY, post varchar(100), user_fk int REFERENCES site_user(id));
+ --this is a comment to commit to github inorder to to try to 'mark as complete' on revature platform
